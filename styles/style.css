@@ -1,0 +1,271 @@
+/* Start Global Style */
+* /*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+*/
+{
+    box-sizing: border-box;
+
+}
+body {
+    width: 100%;
+    margin: 0;
+}
+
+
+/* End Global Style */
+
+
+
+/*  Start Header */
+
+
+.header {
+    width: 100%;
+    height: 30px;
+}
+
+.header .header-content {
+    float: right;
+    width: 30%;
+    margin-right: 15px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header .header-content a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+}
+
+.header .header-content a:hover {
+    text-decoration: underline;
+}
+
+.header .header-content .header-element {
+    float: right;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+
+.header .header-content .header-element button {
+    background-color: #4387fd;
+    padding: 5px 10px;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.header .anchor-ico{
+
+    width: 30px;
+    height: 25px;
+    
+}
+
+.clear-fix {
+    clear: both;
+}
+/* End Header */
+
+/* Start Content */
+
+.content {
+    width: 100%;
+    margin-top: 150px;
+    height:350px;
+}
+
+.google-image {
+    width: 280px;
+    margin: 0 auto;
+    padding-bottom: 25px;
+}
+
+.google-image img {
+    width: 100%;
+}
+
+.search-box {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.search-box .sb-content {
+    width: 45%;
+    margin: 0 0 0 27.5%;
+    border: 1px solid #dfe1e5;
+    padding: 5px;
+    border-radius: 25px;
+    float: left;
+}
+
+.search-box .sb-content:hover {
+    box-shadow: 1px 1px 10px 1px rgba(192, 192, 192, .8);
+}
+
+
+.microphone-icon {
+   
+    width: 29px;
+    padding: 5px 0 0 5px;
+    height: 29px;
+    left: -40px;
+    top: 8px;
+    cursor: pointer;
+    position: relative;
+}
+
+.search-icon {
+    width: 20px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+
+.sb-content input {
+    margin: 0 auto;
+    width: 95%;
+    border: none;
+    font-size: 20px;
+    outline: none;
+    padding: 5px;
+}
+
+.microphone {
+    width: 30px;
+    float: left;
+    
+}
+
+.microphone:hover {
+}
+
+.search-buttons {
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.buttons {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buttons button {
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 20px;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    text-align: center;
+}
+
+
+.buttons button:first-of-type {
+    background-color: #4285f4;
+    color: white;
+    border: 1px solid #4285f4;
+}
+
+.buttons button:not(:first-of-type) {
+    margin-left: 15px;
+    background-color: white;
+    color: #4285f4;
+}
+
+.buttons button:first-of-type:hover {
+    background-color: #4783e2;
+    cursor: pointer;
+}
+
+.buttons button:not(:first-of-type):hover {
+    cursor: pointer;
+    background-color: #4e8ff842;
+}
+
+
+.translate {
+    width: 30%;
+    margin: 15px auto;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.arabic-translate a {
+    text-decoration: none;
+    font-family: arial,sans-serif;
+}
+
+.arabic-translate a:hover {
+    text-decoration: underline;
+}
+
+
+/* End Content */
+
+
+/* Start Footer */
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #5f6368;
+    background-color: rgb(242, 242, 242);
+}
+
+.country {
+    padding: 10px 30px;
+    border: 1px solid #dfe1e5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13 px;
+}
+
+
+.country span:hover {
+    cursor: text;
+} 
+
+.left-side {
+    float: left;
+    padding: 10px 20px;
+}
+
+.right-side {
+    float: right;
+    padding: 10px 20px;
+}
+
+.right-side a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.right-side a:hover {
+    text-decoration: underline;
+}
+
+.left-side a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #5f6368;
+}
+
+.left-side a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* End Footer */
